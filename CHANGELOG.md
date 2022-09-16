@@ -1,3 +1,7 @@
+## 1.1.1
+
+* Update documentation and migrate to an individual repository.
+
 ## 1.1.0
 
 * Add PersistNotifierManager for management of persist notifiers as settings.

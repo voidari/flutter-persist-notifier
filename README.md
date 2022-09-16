@@ -1,4 +1,4 @@
-# Persist Notifier plugin
+# Persist Notifier
 
 [![pub package](https://img.shields.io/pub/v/persist_notifier.svg)](https://pub.dev/packages/persist_notifier)
 
