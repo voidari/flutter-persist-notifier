@@ -30,8 +30,8 @@ class PersistNotifier<T> extends ValueNotifier {
     _register();
   }
 
-  /// Statically create a persist notifier and provide a means of
-  /// making the process synchronous or asynchronous.
+  /// Statically creates a persist notifier, providing a synchronous
+  /// initialization method.
   static Future<PersistNotifier> create(
       String key, dynamic defaultValue) async {
     PersistNotifier pn = PersistNotifier(key, defaultValue, sync: false);

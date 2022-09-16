@@ -10,7 +10,8 @@ class PersistNotifierManager {
       <String, List<PersistNotifier>>{};
 
   /// Register a persist notifier with the manager for tracking.
-  void add(PersistNotifier persistNotifier, {String group = ""}) {
+  void add(PersistNotifier persistNotifier, {String? group}) {
+    group ??= "";
     if (!_persistNotifierMap.containsKey(group)) {
       _persistNotifierMap[group] = <PersistNotifier>[];
     }
