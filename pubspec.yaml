@@ -1,8 +1,8 @@
 name: persist_notifier
 description: A ValueNotifier designed for defining settings and providing a solution with a default value and notification system.
 version: 1.1.0
-repository: https://github.com/voidari/flutter/tree/main/persist_notifier
-issue_tracker: https://github.com/voidari/flutter/labels/persist%20notifier
+repository: https://github.com/voidari/flutter_persist_notifier
+issue_tracker: https://github.com/voidari/flutter_persist_notifier/issues
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
