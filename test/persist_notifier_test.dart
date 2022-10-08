@@ -1,3 +1,5 @@
+// Copyright (C) 2022 by Voidari LLC or its subsidiaries.
+
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 

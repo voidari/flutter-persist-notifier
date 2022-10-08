@@ -1,3 +1,4 @@
+// Copyright (C) 2022 by Voidari LLC or its subsidiaries.
 library persist_notifier;
 
 import 'package:persist_notifier/persist_notifier.dart';
