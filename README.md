@@ -2,7 +2,15 @@
 
 [![pub package](https://img.shields.io/pub/v/persist_notifier.svg)](https://pub.dev/packages/persist_notifier)
 
-Wraps platform-specific persistent storage for simple data
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+## Introduction
+
+The plugin wraps platform-specific persistent storage for simple data
 (NSUserDefaults on iOS and macOS, SharedPreferences on Android, etc.) using existing [ValueNotifier](https://api.flutter.dev/flutter/foundation/ValueNotifier-class.html) methods and newly defined methods for additional functionality.
 Data may be persisted to disk asynchronously or synchronously.
 
@@ -92,3 +100,22 @@ void example() {
 | macOS    | NSUserDefaults                   |
 | Web      | LocalStorage                     |
 | Windows  | In the roaming AppData directory |
+
+## Appreciation and Proposals
+
+When we work on a project, any internal library we create that could benefit the community will be made public for free use. Please consider contributing, as work does go into creating and maintaining this library. As always, if something could be improved, please create an issue for it in the project repo and we'll be happy to discuss!
+
+[<img src="img/buymecoffee.png" width="175"/>](https://www.buymeacoffee.com/voidari)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/voidari/flutter_persist_notifier.svg?style=for-the-badge
+[contributors-url]: https://github.com/voidari/flutter_persist_notifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/voidari/flutter_persist_notifier.svg?style=for-the-badge
+[forks-url]: https://github.com/voidari/flutter_persist_notifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/voidari/flutter_persist_notifier.svg?style=for-the-badge
+[stars-url]: https://github.com/voidari/flutter_persist_notifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/voidari/flutter_persist_notifier.svg?style=for-the-badge
+[issues-url]: https://github.com/voidari/flutter_persist_notifier/issues
+[license-shield]: https://img.shields.io/github/license/voidari/flutter_persist_notifier.svg?style=for-the-badge
+[license-url]: https://github.com/voidari/flutter_persist_notifier/blob/main/LICENSE
