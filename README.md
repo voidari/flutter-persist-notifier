@@ -109,13 +109,13 @@ When we work on a project, any internal library we create that could benefit the
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/voidari/flutter_persist_notifier.svg?style=for-the-badge
-[contributors-url]: https://github.com/voidari/flutter_persist_notifier/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/voidari/flutter_persist_notifier.svg?style=for-the-badge
-[forks-url]: https://github.com/voidari/flutter_persist_notifier/network/members
-[stars-shield]: https://img.shields.io/github/stars/voidari/flutter_persist_notifier.svg?style=for-the-badge
-[stars-url]: https://github.com/voidari/flutter_persist_notifier/stargazers
-[issues-shield]: https://img.shields.io/github/issues/voidari/flutter_persist_notifier.svg?style=for-the-badge
-[issues-url]: https://github.com/voidari/flutter_persist_notifier/issues
-[license-shield]: https://img.shields.io/github/license/voidari/flutter_persist_notifier.svg?style=for-the-badge
-[license-url]: https://github.com/voidari/flutter_persist_notifier/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/voidari/flutter-persist-notifier.svg?style=for-the-badge
+[contributors-url]: https://github.com/voidari/flutter-persist-notifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/voidari/flutter-persist-notifier.svg?style=for-the-badge
+[forks-url]: https://github.com/voidari/flutter-persist-notifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/voidari/flutter-persist-notifier.svg?style=for-the-badge
+[stars-url]: https://github.com/voidari/flutter-persist-notifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/voidari/flutter-persist-notifier.svg?style=for-the-badge
+[issues-url]: https://github.com/voidari/flutter-persist-notifier/issues
+[license-shield]: https://img.shields.io/github/license/voidari/flutter-persist-notifier.svg?style=for-the-badge
+[license-url]: https://github.com/voidari/flutter-persist-notifier/blob/main/LICENSE
