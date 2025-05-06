@@ -1,3 +1,8 @@
+## 1.1.2
+
+* Update the minor and major packages. Fix breaking changes.
+* Rename repo from flutter_persist_notifier to flutter-persist-notifier.
+
 ## 1.1.1
 
 * Update documentation and migrate to an individual repository.
