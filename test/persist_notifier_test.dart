@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:persist_notifier/persist_notifier.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:shared_preferences_platform_interface/shared_preferences_platform_interface.dart';
+import 'package:shared_preferences_platform_interface/types.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -152,5 +153,30 @@ class FakeSharedPreferencesStore implements SharedPreferencesStorePlatform {
   Future<bool> setValue(String valueType, String key, Object value) {
     log.add(MethodCall('setValue', <dynamic>[valueType, key, value]));
     return backend.setValue(valueType, key, value);
+  }
+
+  @override
+  Future<bool> clearWithParameters(ClearParameters parameters) {
+    log.add(MethodCall('clearWithParameters', parameters));
+    return backend.clearWithParameters(parameters);
+  }
+
+  @override
+  Future<bool> clearWithPrefix(String prefix) {
+    log.add(MethodCall('clearWithPrefix', prefix));
+    return backend.clearWithPrefix(prefix);
+  }
+
+  @override
+  Future<Map<String, Object>> getAllWithParameters(
+      GetAllParameters parameters) {
+    log.add(MethodCall('getAllWithParameters', parameters));
+    return backend.getAllWithParameters(parameters);
+  }
+
+  @override
+  Future<Map<String, Object>> getAllWithPrefix(String prefix) {
+    log.add(MethodCall('getAllWithPrefix', prefix));
+    return backend.getAllWithPrefix(prefix);
   }
 }
